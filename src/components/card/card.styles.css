@@ -1,6 +1,7 @@
 .card{
     width: 250px;
     background:  #fff;
+    box-shadow: 6px 7px 25px -6px rgba(0,0,0,0.58);
 }
 .img-box{
     width: 100%;
@@ -74,6 +75,10 @@
 }
 .content{
     padding: 10px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 .content .product-name h3{
     font-size: 18px;
@@ -84,6 +89,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+   
 }
 .price-rating h2{
     font-size: 20px;

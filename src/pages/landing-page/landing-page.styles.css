@@ -1,0 +1,35 @@
+.landing-page{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px 40px;
+    width: 100%;
+   
+}
+.slogan{
+    padding: 10px;
+}
+.slogan h3{
+    margin: 0 20px;
+    font-size: 24px;
+    font-weight: 500;
+    letter-spacing: 0.3em;
+}
+.shopping-bags-img{
+    height: 400px;
+    width: 400px;
+    background: url('../../assets/shopping-bags.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+@media only screen and (max-width: 400px){
+    .shopping-bags-img{
+        height: 300px;
+        width: 300px;
+    }
+    .slogan{
+        margin-bottom: 60px;
+    }
+}

@@ -6,7 +6,7 @@ import Card from '../card/card.component';
 const Cards = ({products}) => {
   return (
     <div className='cards'>
-       {products? products.map((product)=> <Card key={product.id} product={product}/>) : null}
+       {products.map((product)=> <Card key={product.id} product={product}/>)}
     </div>
   )
 }
