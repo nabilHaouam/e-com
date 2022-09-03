@@ -1,0 +1,8 @@
+.single-product{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    white-space: wrap;
+    padding: 40px;
+}
+

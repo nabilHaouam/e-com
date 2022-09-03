@@ -80,6 +80,18 @@
     flex-direction: column;
     justify-content: space-between;
 }
+.product-description{
+    padding: 20px;
+    font-size: 24px;
+    font-weight: 400;
+}
+.product-reviews{
+    color: #6e6e6e;
+    padding: 20px;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 0.4em;
+}
 .content .product-name h3{
     font-size: 18px;
     font-weight: 500;

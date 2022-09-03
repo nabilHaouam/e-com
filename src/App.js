@@ -5,6 +5,7 @@ import LandingPage from "./pages/landing-page/landing-page.component";
 import './App.css'
 import {useState,useEffect} from 'react'
 import Footer from './components/footer/footer.component'
+import SingleProduct from "./pages/single-product/single-product.component";
 
 function App() {
   const [products, setProducts] = useState(null)
@@ -19,8 +20,13 @@ function App() {
     <div className="App">
       <NavBar/>
       <Routes>
-        <Route path="/shop" element={<Shop products={products}/>} />
-        <Route path="/" element={<LandingPage/>} />
+        <Route path="/e-com/shop" element={<Shop products={products}/>} />
+        <Route path="/e-com/" element={<LandingPage/>} />
+        {
+        products? products.map(product => {
+          var slug = product.title.toLowerCase().replace(/ /g, '-').replace(/[^\w-]+/g, '');
+          return <Route key={product.id} path={`/e-com/${slug}`} element={<SingleProduct product={product}/>} />
+        }) : null}
       </Routes>
       <Footer/>
     </div>

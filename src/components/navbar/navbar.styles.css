@@ -7,6 +7,9 @@
     padding: 20px 5vw;
 
 }
+.logo{
+    padding: 0 15px;
+}
 .nav-links{
     display: flex;
     align-items: center;
