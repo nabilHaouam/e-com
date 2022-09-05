@@ -1,20 +1,21 @@
 {
   "files": {
-    "main.css": "/e-com/static/css/main.a6b0154d.css",
-    "main.js": "/e-com/static/js/main.ccab8850.js",
+    "main.css": "/e-com/static/css/main.b9994539.css",
+    "main.js": "/e-com/static/js/main.21b8695f.js",
     "static/js/787.dba80a51.chunk.js": "/e-com/static/js/787.dba80a51.chunk.js",
     "static/media/shopping-bags.png": "/e-com/static/media/shopping-bags.943d46d28daa50e3e1a9.png",
     "static/media/instagram.svg": "/e-com/static/media/instagram.cd2f79beaa79eeaa695f29c65d956cfb.svg",
     "static/media/logo.svg": "/e-com/static/media/logo.b532c5931c3f26f0d2161439b1c6e975.svg",
     "static/media/github.svg": "/e-com/static/media/github.acfe69660ba0aef18bbf993e59a93095.svg",
+    "static/media/google.svg": "/e-com/static/media/google.9a7800d06783d80a1c12249a8ca58e9d.svg",
     "static/media/twitter.svg": "/e-com/static/media/twitter.8fe181810f438b46c607b4e50116dd27.svg",
     "index.html": "/e-com/index.html",
-    "main.a6b0154d.css.map": "/e-com/static/css/main.a6b0154d.css.map",
-    "main.ccab8850.js.map": "/e-com/static/js/main.ccab8850.js.map",
+    "main.b9994539.css.map": "/e-com/static/css/main.b9994539.css.map",
+    "main.21b8695f.js.map": "/e-com/static/js/main.21b8695f.js.map",
     "787.dba80a51.chunk.js.map": "/e-com/static/js/787.dba80a51.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a6b0154d.css",
-    "static/js/main.ccab8850.js"
+    "static/css/main.b9994539.css",
+    "static/js/main.21b8695f.js"
   ]
 }
