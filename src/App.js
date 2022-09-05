@@ -6,6 +6,8 @@ import './App.css'
 import {useState,useEffect} from 'react'
 import Footer from './components/footer/footer.component'
 import SingleProduct from "./pages/single-product/single-product.component";
+import SignInSignUp from "./pages/sign-in-sign-up/sign-in-sign-up.component";
+import { checkUser } from "./firebase";
 
 function App() {
   const [products, setProducts] = useState(null)
@@ -13,20 +15,24 @@ function App() {
     fetch('https://fakestoreapi.com/products')
             .then(res=>res.json())
             .then(json=>setProducts(json))
-  
+
     
   }, [])
+
+  
   return (
     <div className="App">
       <NavBar/>
       <Routes>
         <Route path="/e-com/shop" element={<Shop products={products}/>} />
         <Route path="/e-com/" element={<LandingPage/>} />
+        <Route path="/e-com/sign-in-sign-up" element={<SignInSignUp/>} />
         {
         products? products.map(product => {
           var slug = product.title.toLowerCase().replace(/ /g, '-').replace(/[^\w-]+/g, '');
           return <Route key={product.id} path={`/e-com/${slug}`} element={<SingleProduct product={product}/>} />
         }) : null}
+        <Route path="*" element={<LandingPage/>}/>
       </Routes>
       <Footer/>
     </div>
