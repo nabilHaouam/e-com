@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/e-com/static/css/main.b9994539.css",
-    "main.js": "/e-com/static/js/main.21b8695f.js",
+    "main.css": "/e-com/static/css/main.43be5b77.css",
+    "main.js": "/e-com/static/js/main.c4787fe0.js",
     "static/js/787.dba80a51.chunk.js": "/e-com/static/js/787.dba80a51.chunk.js",
     "static/media/shopping-bags.png": "/e-com/static/media/shopping-bags.943d46d28daa50e3e1a9.png",
     "static/media/instagram.svg": "/e-com/static/media/instagram.cd2f79beaa79eeaa695f29c65d956cfb.svg",
@@ -10,12 +10,12 @@
     "static/media/google.svg": "/e-com/static/media/google.9a7800d06783d80a1c12249a8ca58e9d.svg",
     "static/media/twitter.svg": "/e-com/static/media/twitter.8fe181810f438b46c607b4e50116dd27.svg",
     "index.html": "/e-com/index.html",
-    "main.b9994539.css.map": "/e-com/static/css/main.b9994539.css.map",
-    "main.21b8695f.js.map": "/e-com/static/js/main.21b8695f.js.map",
+    "main.43be5b77.css.map": "/e-com/static/css/main.43be5b77.css.map",
+    "main.c4787fe0.js.map": "/e-com/static/js/main.c4787fe0.js.map",
     "787.dba80a51.chunk.js.map": "/e-com/static/js/787.dba80a51.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b9994539.css",
-    "static/js/main.21b8695f.js"
+    "static/css/main.43be5b77.css",
+    "static/js/main.c4787fe0.js"
   ]
 }
