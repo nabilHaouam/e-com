@@ -7,7 +7,7 @@ import {useState,useEffect} from 'react'
 import Footer from './components/footer/footer.component'
 import SingleProduct from "./pages/single-product/single-product.component";
 import SignInSignUp from "./pages/sign-in-sign-up/sign-in-sign-up.component";
-import { checkUser } from "./firebase";
+
 
 function App() {
   const [products, setProducts] = useState(null)
@@ -30,7 +30,7 @@ function App() {
         {
         products? products.map(product => {
           var slug = product.title.toLowerCase().replace(/ /g, '-').replace(/[^\w-]+/g, '');
-          return <Route key={product.id} path={`/e-com/${slug}`} element={<SingleProduct product={product}/>} />
+          return <Route key={product.id} path={`/e-com/shop/${slug}`} element={<SingleProduct product={product}/>} />
         }) : null}
         <Route path="*" element={<LandingPage/>}/>
       </Routes>

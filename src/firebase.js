@@ -47,13 +47,5 @@ export const signInWithGoogle = () => signInWithPopup(auth, provider)
   }).catch((error) => {
     // An error happened.
   });
-  const checkUser = ()=> onAuthStateChanged(auth , (user)=>{
-    if (user){
-        window.location = "/e-com"
-    } else {
-        window.location = "/e-com/sign-in-sign-up"
-    }
-    
- })
 
  

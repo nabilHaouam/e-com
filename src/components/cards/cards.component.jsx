@@ -8,7 +8,7 @@ const Cards = ({products}) => {
     <div className='cards'>
        {products.map((product)=> {
           var slug = product.title.toLowerCase().replace(/ /g, '-').replace(/[^\w-]+/g, '');
-          return <Link to={`/e-com/${slug}`} key={product.id}><Card key={product.id} product={product}/></Link>}
+          return <Link to={`/e-com/shop/${slug}`} key={product.id}><Card key={product.id} product={product}/></Link>}
           )
        }
     </div>

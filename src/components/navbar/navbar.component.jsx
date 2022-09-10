@@ -15,7 +15,7 @@ const NavBar = () => {
         <ul className="nav-links">
             <li><Link to="/e-com/">Home</Link></li>
             <li><Link to="/e-com/shop">Shop</Link></li>
-            {auth.currentUser? <li onClick={signOutFromApp}>Sign Out</li> : <Link to = {"/e-com/sign-in-sign-up"}><li>Sign In</li></Link>}
+            {auth.currentUser? <li onClick={signOutFromApp}>Sign-out</li> : <Link to = {"/e-com/sign-in-sign-up"}><li>Sign-in</li></Link>}
         </ul>
     </div>
   )
