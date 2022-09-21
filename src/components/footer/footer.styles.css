@@ -1,8 +1,8 @@
-.footer{
+.footer {
   padding: 0 20vw;
-  font-size:15px;
-  line-height:24px;
-  color:#737373;
+  font-size: 15px;
+  line-height: 24px;
+  color: #737373;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -10,17 +10,16 @@
   text-align: center;
   margin-top: 50px;
 }
-
-.social-icons{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
+.social-icons {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
-.social-icons li{
-    padding: 10px;
-    list-style: none;
+.social-icons li {
+  padding: 10px;
+  list-style: none;
 }
 a {
-    color: black;
-    text-decoration: none;
+  color: black;
+  text-decoration: none;
 }
