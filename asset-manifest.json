@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/e-com/static/css/main.43be5b77.css",
+    "main.css": "/e-com/static/css/main.97aa9c38.css",
     "main.js": "/e-com/static/js/main.c4787fe0.js",
     "static/js/787.dba80a51.chunk.js": "/e-com/static/js/787.dba80a51.chunk.js",
     "static/media/shopping-bags.png": "/e-com/static/media/shopping-bags.943d46d28daa50e3e1a9.png",
     "static/media/instagram.svg": "/e-com/static/media/instagram.cd2f79beaa79eeaa695f29c65d956cfb.svg",
-    "static/media/logo.svg": "/e-com/static/media/logo.b532c5931c3f26f0d2161439b1c6e975.svg",
+    "static/media/logo.svg": "/e-com/static/media/logo.045b222af95edad5e2b0067df96e0f9e.svg",
     "static/media/github.svg": "/e-com/static/media/github.acfe69660ba0aef18bbf993e59a93095.svg",
     "static/media/google.svg": "/e-com/static/media/google.9a7800d06783d80a1c12249a8ca58e9d.svg",
     "static/media/twitter.svg": "/e-com/static/media/twitter.8fe181810f438b46c607b4e50116dd27.svg",
     "index.html": "/e-com/index.html",
-    "main.43be5b77.css.map": "/e-com/static/css/main.43be5b77.css.map",
+    "main.97aa9c38.css.map": "/e-com/static/css/main.97aa9c38.css.map",
     "main.c4787fe0.js.map": "/e-com/static/js/main.c4787fe0.js.map",
     "787.dba80a51.chunk.js.map": "/e-com/static/js/787.dba80a51.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.43be5b77.css",
+    "static/css/main.97aa9c38.css",
     "static/js/main.c4787fe0.js"
   ]
 }
