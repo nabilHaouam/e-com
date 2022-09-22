@@ -53,7 +53,7 @@ export const signOutFromApp = () =>
   signOut(auth)
     .then(() => {
       // Sign-out successful.
-      window.location = "/e-com/sign-in-sign-up";
+      window.location = "/sign-in-sign-up";
     })
     .catch((error) => {
       // An error happened.

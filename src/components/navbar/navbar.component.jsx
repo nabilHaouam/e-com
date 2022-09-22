@@ -10,20 +10,20 @@ const NavBar = () => {
 
   return (
     <div className="nav-bar">
-      <Link className="logo" to="/e-com">
+      <Link className="logo" to="/">
         <Logo />
       </Link>
       <ul className="nav-links">
         <li>
-          <Link to="/e-com/">Home</Link>
+          <Link to="/">Home</Link>
         </li>
         <li>
-          <Link to="/e-com/shop">Shop</Link>
+          <Link to="/shop">Shop</Link>
         </li>
         {auth.currentUser ? (
           <li onClick={signOutFromApp}>Sign-out</li>
         ) : (
-          <Link to={"/e-com/sign-in-sign-up"}>
+          <Link to={"/sign-in-sign-up"}>
             <li>Sign-in</li>
           </Link>
         )}

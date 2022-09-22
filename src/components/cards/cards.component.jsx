@@ -12,7 +12,7 @@ const Cards = ({ products }) => {
           .replace(/ /g, "-")
           .replace(/[^\w-]+/g, "");
         return (
-          <Link to={`/e-com/shop/${slug}`} key={product.id}>
+          <Link to={`/shop/${slug}`} key={product.id}>
             <Card key={product.id} product={product} />
           </Link>
         );
