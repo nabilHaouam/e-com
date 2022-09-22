@@ -15,15 +15,15 @@ const NavBar = () => {
       </Link>
       <ul className="nav-links">
         <li>
-          <Link to="/">Home</Link>
+          <Link to="/#/">Home</Link>
         </li>
         <li>
-          <Link to="/shop">Shop</Link>
+          <Link to="/#/shop">Shop</Link>
         </li>
         {auth.currentUser ? (
           <li onClick={signOutFromApp}>Sign-out</li>
         ) : (
-          <Link to={"/sign-in-sign-up"}>
+          <Link to={"/#/sign-in-sign-up"}>
             <li>Sign-in</li>
           </Link>
         )}

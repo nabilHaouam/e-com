@@ -17,7 +17,7 @@ const SingleProduct = ({ product }) => {
       // ...
     } else {
       // User is signed out
-      window.location = "/sign-in-sign-up";
+      window.location = "/#/sign-in-sign-up";
       // ...
     }
   });
