@@ -38,7 +38,6 @@ function App() {
               );
             })
           : null}
-        <Route path="*" element={<LandingPage />} />
       </Routes>
       <Footer />
     </div>
