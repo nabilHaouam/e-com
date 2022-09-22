@@ -20,9 +20,9 @@ function App() {
     <div className="App">
       <NavBar />
       <Routes>
-        <Route path="/#/shop" element={<Shop products={products} />} />
+        <Route path="/shop" element={<Shop products={products} />} />
         <Route path="/" element={<LandingPage />} />
-        <Route path="/#/sign-in-sign-up" element={<SignInSignUp />} />
+        <Route path="/sign-in-sign-up" element={<SignInSignUp />} />
         {products
           ? products.map((product) => {
               var slug = product.title
@@ -32,7 +32,7 @@ function App() {
               return (
                 <Route
                   key={product.id}
-                  path={`/#/shop/${slug}`}
+                  path={`/shop/${slug}`}
                   element={<SingleProduct product={product} />}
                 />
               );
