@@ -35,7 +35,7 @@ export const signInWithGoogle = () =>
       const token = credential.accessToken;
       // The signed-in user info.
       const user = result.user;
-      window.location = "/e-com";
+      window.location = "/e-com/shop/";
       // ...
     })
     .catch((error) => {
