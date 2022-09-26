@@ -35,8 +35,7 @@ export const signInWithGoogle = () =>
       const token = credential.accessToken;
       // The signed-in user info.
       const user = result.user;
-    
-      window.location = "/#/shop";
+      window.location = "/";
       // ...
     })
     .catch((error) => {
@@ -54,7 +53,6 @@ export const signOutFromApp = () =>
   signOut(auth)
     .then(() => {
       // Sign-out successful.
-    
       window.location = "/#/sign-in-sign-up";
     })
     .catch((error) => {
